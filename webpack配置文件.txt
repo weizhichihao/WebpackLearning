@@ -1,0 +1,15 @@
+1、在目录下新建一个文件webpack.config.js,该文件为webpack默认配置文件
+
+2、package.json中scripts脚本中可配置
+
+    "scripts":{
+        "build":"webpack"
+    }
+
+    通过npm run build 执行webpack命令
+
+3、如果不在根目录下新建配置文件，则需要在脚本中配置 --config 例如:
+
+    "scripts":{
+        "build":"webpack --config ./config/webpack.config.js"
+    }

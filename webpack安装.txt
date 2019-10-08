@@ -1,0 +1,9 @@
+1、安装node
+2、npm init 初始化文件夹
+3、npm install webpack webpack-cli -g  全局安装webpack
+    (不推荐，可通过npm uninstall webpack webpack-cli -g卸载)
+4、npm install webpack webpack-cli -D  局部安装并写入开发依赖
+
+5、如果要安装指定版本的webpack
+(1)先用npm info webpack 查看webpack存在哪些版本
+(2)然后npm install webpack@指定版本号 -D 来进行安装
