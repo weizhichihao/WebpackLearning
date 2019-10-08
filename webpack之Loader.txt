@@ -1,0 +1,12 @@
+1、处理样式
+mini-css-extractplugin.loader
+css-loader
+postcss-loader
+less-loader
+
+
+2、处理图片
+file-loader 
+url-loader
+
+

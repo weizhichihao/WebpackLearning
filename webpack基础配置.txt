@@ -1,0 +1,19 @@
+1、入口 entry
+
+2、打包出口 ouput
+
+3、环境模式  mode
+
+
+####################################################
+
+let path=require('path');
+
+module.exports={
+    mode:'development',
+    entry:'./src/main.js',
+    output:{
+        path:path.resolve(__dirname,'dist'),
+        filename:'bundle.js'
+    }
+}
